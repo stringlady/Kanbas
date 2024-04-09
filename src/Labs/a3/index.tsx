@@ -5,6 +5,10 @@ import Styles from "./Styles"
 import ConditionalOutput from "./ConditionalOutput";
 import Highlight from "./Highlight";
 import Add from "./Add";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { useSelector } from "react-redux";
+import { LabState } from "../store";
+
 function Assignment3() {
  return (
    <div>
