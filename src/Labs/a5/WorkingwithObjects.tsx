@@ -6,7 +6,7 @@ function WorkingWithObjects() {
         description: "Create a NodeJS server with ExpressJS",
         due: "2021-10-10", completed: false, score: 0,
       });
-      const ASSIGNMENT_URL = "http://localhost:4000/a5/assignment"
+      const ASSIGNMENT_URL = "https://kanbas-node-server-app-7wvh.onrender.com/a5/assignment"
       const fetchAssignment = async () => {
         const response = await axios.get(`${ASSIGNMENT_URL}`);
         setAssignment(response.data);
@@ -24,11 +24,11 @@ function WorkingWithObjects() {
     <div>
       <h3>Working With Objects</h3>
       <h4>Retrieving Objects</h4>
-      <a href="http://localhost:4000/a5/assignment">
+      <a href="https://kanbas-node-server-app-7wvh.onrender.com/a5/assignment">
         Get Assignment
       </a>
       <h4>Retrieving Properties</h4>
-      <a href="http://localhost:4000/a5/assignment/title">
+      <a href="https://kanbas-node-server-app-7wvh.onrender.com/a5/assignment/title">
         Get Title
       </a>
       <h4>Modifying Properties</h4>
